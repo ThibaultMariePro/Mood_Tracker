@@ -61,7 +61,7 @@ echo -e "${PURPLE}${DATE} ${RESTORE}"
 
 # GRAPHICAL REPRESENTATION
 
-echo -e "${PURPLE}GRAPHICAL REPRESENTATION ${RESTORE}"
+echo -e "${PURPLE}YOUR MOOD AT THIS POINT: ${RESTORE}"
 echo -e "${GREEN}ENERGY ${RESTORE}"
 for i in $(seq 1 $ENERGY); do
     echo -n "⚡️"
@@ -120,8 +120,9 @@ echo -e "${GREEN}WILLPOWER ${RESTORE}"
 for i in $(seq 1 $WILLPOWER); do
     echo -n "💪"
 done
+echo ""
 
-## TODOs
+### TODOs ###
 
 # HISTOGRAPH
 
@@ -129,6 +130,12 @@ done
 #echo -e "${GREEN}SAVING TO FILE ${RESTORE}"
 #echo -e "${GREEN}SAVING TO FILE ${RESTORE}" >> mood.log
 #md file ?
+
+# SAVE TO GOOGLE SHEETS?
+
+# SAVE TO DATABASE?
+
+
 
 
 
